@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+header {
+  width:100%;
+  background-image:url("https://image.shutterstock.com/image-vector/animation-landscape-ancient-indian-city-260nw-1176683008.jpg");
+  text-align: center;
+  padding: 3%;
+  /* color: #fff; */
+  font-family: "Merriweather", serif;
+}
+header,
+footer {
+  color: hsl(243, 90%, 24%);
+  font-weight: 700;
+  text-shadow: 0 0 2px #8d1d3c, 0 0 5px #361e8e;
+}
+body{
+  background-image: url("https://th.bing.com/th/id/OIP.Zeh_aNsjzvSOR_ZBfq22qgHaJB?pid=ImgDet&w=841&h=1024&rs=1");
+
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  padding: 2%;
+}
+.container > div {
+  padding: 20px 0;
+}
+
+
+div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.divScroll {
+  overflow:scroll;
+}
+
+h3{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 1.75rem;
+  font-family: "Calibri", "Arial", sans-serif;
+  text-align: center;
+ 
+}
+h1{
+  color: hsl(0, 85%, 23%);
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+p {
+  color: hsl(0, 85%, 23%);
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-variant-ligatures: normal;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.audio-container {
+  text-align: center;
+  padding: 2%;
+}
+
+@media (max-width: 1028px) {
+  div {
+    grid-column: 1 / span 2;
+    text-align: center;
+    padding-left: 7%;
+    
+  }
+}
+#more {display: none;}
+h4{
+text-align: center;
+}
+footer {
+  text-align: center;
+  font-family:"", serif;
+  background-color: rgb(22, 217, 251);
+  
+}
+footer > h1 {
+  padding: 3%;
+}
+footer > h2 {
+  padding-bottom: 2%;
+}
